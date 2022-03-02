@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mighty Buildings Homepage Clone</title>
+    <meta name="description" content="Mighty Buildings is a construction technology company innovating the construction industry by creating beautiful, and sustainable homes using 3D printing, robotics, and automation. This is a mockup of their homepage.">
+    <!-- <meta name="keywords" content="adu, adu homes, accessory dwelling unit, adu designs, adus, dwelling unit, adu housing, adu unit, prefab adu, adu plans, adu california, accessory apartment, adu house plans, accessory dwelling unit cost, adu floor plans, additional dwelling unit, mighty "> -->
+    <meta name="keywords" content="HTML, CSS, JavaScript, accessibility, SEO, website, clone">
+    <meta name="author" content="Michelle Renee Bloodworth">
+    <link rel="shortcut icon" href="https://static.tildacdn.com/tild6239-6335-4833-b033-366266623830/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="home">
+    <a class="skip-to-content" href="#main">Skip to content</a>
+
+    <header class="primary-header flex">
+
+        <div>
+            <img src="/images/mb-combo-logo.svg" alt="Mighty Buildings Logo" class="logo">
+        </div>
+        <!---->
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+        <!---->
+        <nav>
+            <ul data-visible="false" class="primary-navigation flex">
+                <li class="active"><a href="https://mightybuildings.com/quatro">Mighty House</a></li>
+                <li><a href="https://mightybuildings.com/projects">Projects</a></li>
+                <li><a href="https://mightybuildings.com/mks">Technology</a></li>
+                <li><a href="https://mightybuildings.com/our-impact">Our Impact</a></li>
+                <li><a href="https://mightybuildings.com/about-us">About Us</a></li>
+            </ul>
+        </nav>
+        <div data-visible="false" class="primary-navigation">
+            <a href="https://portal.mightbuildings.com/login" target="_blank" rel="noopener">
+                <img class="login-btn" src="/images/login-icon.svg" alt="Login">
+        </div>
+        <div data-visible="false" class="primary-navigation">
+            <button class="btn --contact-btn uppercase letter-spacing">Contact Us</button>
+        </div>
+        </a>
+
+    </header>
+    <main class="main-body">
+        <div class="container --hero-container uppercase letter-spacing text-h">
+            <div class="--text-container">
+                <h1>Mighty Buildings</h1>
+                <h2>Sustainable Housing Solutions</h2>
+                <div class="--description">
+                    <h3 class="border">Build Sustainable 3D Printed Communities Of Zero Net Energy Homes</h3>
+                </div>
+                <div class="--down-arrow-container">
+                    <a href="#about"><img class="down-arrow" src="/images/down-arrow.svg" alt="Read more about Mighty Buildings">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container --center-container">
+            <div id="about" class="text-p --text-container">
+                Mighty Buildings is a construction technology company based in Oakland, CA that is innovating the construction industry by creating beautiful, sustainable, and high-quality homes using advanced materials, patented 3D printing technology, and robotic automation.
+                <br>
+                <br> Our mission is to have a positive impact on the environment, local communities, and the housing crisis through our sustainable approach.
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
