@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Mighty Buildings Website: [(https://mightybuildings.com/)]
-- My Clone/Mock-up: [Add live site URL here](https://your-live-site-url.com)
+- My Clone/Mock-up: [(https://slimbloodworth.github.io/Mighty-Buildings-Timed-Clone/)]
 
 ## My process
 - I did NOT use any wireframes or libraries. This was from scratch custom coding.
